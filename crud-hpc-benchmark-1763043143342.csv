@@ -1,0 +1,6 @@
+Operation,Records,Duration (s),Throughput (ops/s),Latency P95 (ms),Latency P99 (ms),Memory (MB)
+Cascade Delete,10000000,17.39,574977,0.55,0.83,47
+Transactional Update,10000000,17.13,583805,0.54,0.84,58
+Bulk Insert,10000000,17.20,581395,0.41,0.63,59
+Optimized Read,10000000,17.08,585514,0.37,0.59,49
+Optimized Read,100000,0.18,549451,0.30,0.46,53
